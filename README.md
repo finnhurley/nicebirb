@@ -11,7 +11,8 @@ Running in Docker (Locally):
 -e CONSUMER_SECRET= \
 -e ACCESS_TOKEN= \
 -e ACCESS_TOKEN_SECRET= \
-nicebirb```
+nicebirb
+```
 
 Running in EC2:
 ```docker run -d --restart always \
@@ -19,4 +20,5 @@ Running in EC2:
 -e CONSUMER_SECRET= \
 -e ACCESS_TOKEN= \
 -e ACCESS_TOKEN_SECRET= \
-nicebirb```
+nicebirb
+```
