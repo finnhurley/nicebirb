@@ -7,7 +7,8 @@ Used this as an opportunity to learn how to use tweepy and EC2 as well as to bru
 ## For own ref:
 
 Running in Docker (Locally):
-```docker run -it -e CONSUMER_KEY= \
+```
+docker run -it -e CONSUMER_KEY= \
 -e CONSUMER_SECRET= \
 -e ACCESS_TOKEN= \
 -e ACCESS_TOKEN_SECRET= \
@@ -15,7 +16,8 @@ nicebirb
 ```
 
 Running in EC2:
-```docker run -d --restart always \
+```
+docker run -d --restart always \
 -e CONSUMER_KEY= \
 -e CONSUMER_SECRET= \
 -e ACCESS_TOKEN= \
